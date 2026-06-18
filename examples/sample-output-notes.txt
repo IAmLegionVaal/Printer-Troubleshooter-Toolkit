@@ -1,0 +1,11 @@
+Sample output files are generated when the toolkit runs.
+
+Typical output:
+- HTML report
+- CSV report
+- JSON report
+- Log file
+- Printer inventory export
+- Port inventory export
+- Driver inventory export
+- Queue inventory export
