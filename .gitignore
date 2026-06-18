@@ -1,0 +1,18 @@
+# Reports and logs
+Printer_Troubleshooter_Reports/
+*.log
+*.csv
+*.json
+*.html
+*.txt
+
+# Keep example notes
+!examples/*.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.ps1xml
+*.psm1~
