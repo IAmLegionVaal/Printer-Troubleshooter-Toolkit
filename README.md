@@ -77,3 +77,11 @@ troubleshooting
 sysadmin
 network-printer
 ```
+
+## November 2026 field incident case study
+
+- [Incident runbook](case-studies/2026-11-usb-printer-recovery.md): USB printer recovery: Windows test page successful; user confirmation pending.
+- [Reusable PowerShell helper](examples/Get-UsbPrinterRecoveryEvidence.ps1): read-only audit plus opt-in mono/simplex change.
+- [Pester static validation](tests/StaticQuality.Tests.ps1) and [read-only CI workflow](.github/workflows/pester-static-qa.yml).
+
+These case studies are anonymized. Review all commands and check the actual environment before execution. CI passing does **not** mean the original incident is fully remediated.
